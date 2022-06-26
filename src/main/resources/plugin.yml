@@ -1,0 +1,10 @@
+name: DeathPlugin
+version: '${project.version}'
+main: me.almana.deathplugin.DeathPlugin
+api-version: 1.18
+prefix: DeathPlugin
+description: A death customiser plugin
+commands:
+  cheatdeath:
+    permission: deathpl.cheatdeath
+    description: Able to resurrect someone if dead
